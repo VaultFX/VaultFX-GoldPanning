@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'rdr3'
 description 'Gold Panning Script for RedM'
-author 'Your Name'
+author 'VaultFX Team'
 version '1.0.0'
 
 shared_scripts {
