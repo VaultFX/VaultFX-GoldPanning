@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Panning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div id="container">
+        <!-- Gold Panning Progress -->
+        <div id="progress-container" class="hidden">
+            <div class="panel">
+                <div class="panel-header">
+                    <img src="img/gold-pan.png" alt="Gold Pan" class="icon">
+                    <h2>Gold Panning</h2>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <p id="progress-text">Panning for gold...</p>
+            </div>
+        </div>
+
+        <!-- Found Items Display -->
+        <div id="found-items" class="hidden">
+            <div class="panel found-panel">
+                <div class="panel-header">
+                    <img src="img/treasure.png" alt="Treasure" class="icon">
+                    <h2>You Found!</h2>
+                </div>
+                <div id="found-items-list">
+                    <!-- Items will be added here dynamically -->
+                </div>
+                <button id="close-found" class="btn-close">Close</button>
+            </div>
+        </div>
+
+        <!-- Help Text -->
+        <div id="help-text" class="hidden">
+            <div class="help-bubble">
+                <p>Press <span class="key">E</span> to start panning for gold</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
